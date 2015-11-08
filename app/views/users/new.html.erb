@@ -1,5 +1,11 @@
 <h1>New User</h1>
 
 <%= render 'form' %>
-
+<%= form_for(@user) do |f| %>
+      <%= f.text_field :firstName, :placeholder => "First name" %>
+      <%= f.text_field :lastName, :placeholder => "Last name" %>
+      <%= f.email_field :userName, :placeholder => "Email" %>
+      <%= f.password_field :password, :placeholder => "Password" %>
+      <%= f.submit "Create an account", class: "btn-submit" %>
+    <% end %>
 <%= link_to 'Back', users_path %>
