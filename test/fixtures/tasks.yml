@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  name: MyString
+  course: MyString
+  dueDate: 2015-11-06
+  estTime: 1
+  description: MyText
+  priority: 1
+
+two:
+  user_id: 1
+  name: MyString
+  course: MyString
+  dueDate: 2015-11-06
+  estTime: 1
+  description: MyText
+  priority: 1
